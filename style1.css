@@ -158,6 +158,9 @@ section a{
         text-align: center;
         font-size: 10px;
     }
+    .frame-plan iframe{
+        margin-top: 4em;
+    }
     .frame-calendar h3{
         color: white;
         font-size: 10px;
@@ -167,8 +170,8 @@ section a{
         font-size: 10px;
     }
     .frame-calendar section iframe{
-        width: 20em ;
-        margin-left: 25px;
+        width: 18em ;
+        margin-left: 2em;
     }
     .frame-guide h3{
         color: white;
@@ -193,7 +196,69 @@ section a{
         font-size: 10px;
     }
 }
-@media screen and (max-width: 800px){
+@media screen and (min-width: 400px) and (max-width: 500px){
+    .frame-course h3{
+        color: white;
+        font-size: 10px;
+    }
+    .frame-course nav{
+        display:inline-block;
+        text-align: center;
+        font-size: 10px;
+    }
+    .frame-course section iframe{
+        width: 20em ;
+        margin-left: 30px;
+    }
+    .frame-plan{
+        color: white;
+        font-size: 15px;
+    }
+    .frame-plan nav{
+        display:inline-block;
+        text-align: center;
+        font-size: 13px;
+    }
+    .frame-plan iframe{
+        height: 50em;
+        margin-top: 5em
+    }
+    .frame-calendar h3{
+        color: white;
+        font-size: 15px;
+    }
+    .frame-calendar nav{
+        text-align: center;
+        font-size: 12px;
+    }
+    .frame-calendar section iframe{
+        width: 20em ;
+        margin-left: 25px;
+    }
+    .frame-guide h3{
+        color: white;
+        font-size: 15px;
+    }
+    .frame-guide nav{
+        text-align: center;
+        font-size: 12px;
+    }
+    .frame-guide section iframe{
+        width: 20em ;
+        margin-left: 25px;
+    }
+    .rule h3{
+        color: white;
+        font-size: 15px;
+    }
+    .rule h4{
+        font-size: 12px;
+    }
+    .rule ul{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1100px){
     .frame-course h3{
         font-size: 20px;
     }
@@ -202,7 +267,7 @@ section a{
     }
     .frame-course iframe{
         width: 40em;
-        margin-left: 3em;
+        margin-left: 12em;
     }
     .frame-plan h3{
         font-size: 20px;
@@ -213,7 +278,8 @@ section a{
     .frame-plan iframe{
         height: 36em;
         width: 45em;
-        margin-left: 20px;
+        margin-left: 9em;
+        margin-top: 3em;
     }
     .frame-calendar h3{
         font-size: 20px;

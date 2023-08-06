@@ -58,7 +58,39 @@ li{
     padding-bottom: 10px;
 }    
 }
-@media screen and (max-width: 780px){
+@media screen and (min-width: 400px) and (max-width: 500px){
+    .professor{
+        padding: 0 20px;
+    }
+     .professor h3{
+        font-size: 15px;
+        padding-left: 10px;
+        font-weight: normal;
+        color: white;
+        border-bottom: 1px white solid;
+     }
+    #profile{
+            height: 10em;
+            width: 6em;
+    }
+    .border{
+        padding-left:40%;
+        padding-right: 30px
+    }
+    #name{
+        font-size: 12px;
+    }
+    p{
+        font-size: 12px;
+    }
+    li{
+        font-size: 12px;
+    }
+    .contact #c{
+        padding-bottom: 10px;
+    }    
+}
+@media screen and (min-width: 600px) and (max-width: 1100px){
     .professor{
         padding-left: 30px ;
         padding-right: 30px;
