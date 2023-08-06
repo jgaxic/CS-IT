@@ -1,0 +1,95 @@
+section{
+    padding: 10px 20px 10px 20px;
+}
+section .d1{
+    color: white;
+    border-bottom: 1px white solid;
+    font-weight: normal;
+}
+.d2{
+    padding: 1px 10% 0 10%;
+}
+.d2 .d3{
+    color: white;
+    border-bottom: 1px white solid;
+    font-weight: normal;
+}
+#dl4{
+    height: 1em;
+    width: 2em
+}
+.d2 li{
+    list-style: none;
+    padding-left: 10px;
+}
+.d2 a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
+/*student*/
+#blue{
+    padding-left: 10px;
+    color: darkblue;
+}
+#red{
+    color: red;
+}
+#blue:hover{
+    color: green;
+}
+#red:hover{
+    color:yellow;
+}
+.d5{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.d5 .d6{
+    color: white;
+    border-bottom: 1px white solid;
+    font-weight: normal;
+}
+.d5 li{
+    list-style: none;
+    padding-left: 10px;
+}
+.d5 a{
+    color: black;
+    text-decoration: none;
+}
+.d5 a:hover{
+    color: orange;
+}
+@media screen and (max-width: 400px) {
+      section .d1{
+        color: white;
+        font-size: 10px;
+     }
+     .d2{
+        font-size: 10px;
+     }
+     .d6{
+        font-size: 10px;
+     }
+     li{
+        font-size: 10px;
+     }
+    }
+    @media screen and (max-width: 800px){
+    section .d1{
+        font-size: 20px;
+    }
+    .d3{
+        font-size: 18px;
+    }
+    .d6{
+         font-size: 18px;
+    }
+    li{
+        font-size: 17px;
+    }
+}
+    
