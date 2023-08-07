@@ -143,11 +143,12 @@ section a{
     .frame-course nav{
         display:inline-block;
         text-align: center;
-        font-size: 10px;
+        font-size: 8.5px;
+        padding-right: 15px;
     }
-    .frame-course section iframe{
-        width: 20em ;
-        margin-left: 30px;
+    .frame-course iframe{
+        width: 12em ;
+        margin-left: 5.5em;
     }
     .frame-plan{
         color: white;
