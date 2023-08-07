@@ -149,6 +149,8 @@ section a{
     .frame-course iframe{
         width: 12em ;
         margin-left: 5.5em;
+        height: 30em;
+        margin-top: 10%;
     }
     .frame-plan{
         color: white;
@@ -171,8 +173,8 @@ section a{
         font-size: 10px;
     }
     .frame-calendar section iframe{
-        width: 18em ;
-        margin-left: 2em;
+        width: 17em ;
+        margin-left: 3em;
     }
     .frame-guide h3{
         color: white;
