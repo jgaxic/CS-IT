@@ -266,8 +266,8 @@ section a{
         font-size: 15px;
     }
     .frame-course iframe{
-        width: 35em;
-        margin-left: 5em;
+        width: 25em;
+        margin-left: 10em;
     }
     .frame-plan h3{
         font-size: 20px;
@@ -277,8 +277,8 @@ section a{
     }
     .frame-plan iframe{
         height: 36em;
-        width: 45em;
-        margin-left: 2em;
+        width: 30em;
+        margin-left: 10em;
         margin-top: 3em;
     }
     .frame-calendar h3{
