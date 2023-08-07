@@ -172,9 +172,9 @@ section a{
         text-align: center;
         font-size: 10px;
     }
-    .frame-calendar section iframe{
-        width: 17em ;
-        margin-left: 3em;
+    .frame-calendar iframe{
+        width: 15em ;
+        margin-left: 4.5em;
     }
     .frame-guide h3{
         color: white;
@@ -185,8 +185,8 @@ section a{
         font-size: 10px;
     }
     .frame-guide section iframe{
-        width: 20em ;
-        margin-left: 25px;
+        width: 15em ;
+        margin-left: 4.5em;
     }
     .rule h3{
         color: white;
